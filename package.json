@@ -1,0 +1,36 @@
+{
+  "name": "oatts",
+  "version": "0.0.1",
+  "description": "Open API TypeScript Tools",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david-luna/oatts.git"
+  },
+  "keywords": [
+    "open",
+    "api",
+    "swagger",
+    "tools"
+  ],
+  "author": "David Luna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/david-luna/oatts/issues"
+  },
+  "homepage": "https://github.com/david-luna/oatts#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "jest": "^24.5.0",
+    "ts-jest": "^24.0.0",
+    "typescript": "^3.3.4000"
+  }
+}
