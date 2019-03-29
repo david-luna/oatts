@@ -1,5 +1,5 @@
 import { index } from './index'
 
-test('hello', () => {
+xtest('hello', () => {
   expect(index()).toEqual('hello');
 })
